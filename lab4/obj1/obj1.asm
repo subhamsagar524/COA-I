@@ -1,0 +1,5 @@
+MOV AX, 20h
+MOV CL, 3h
+SAL AX, CL
+MOV BX, AX
+HLT

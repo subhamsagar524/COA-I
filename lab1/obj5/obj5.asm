@@ -1,0 +1,7 @@
+MOV SI, 4000h
+MOV BX, 0500h
+MOV AX, [BX + SI]
+MOV CX, [BX + SI + 02]
+ADD AX, CX
+MOV [BX + SI + 04], AX
+HLT
